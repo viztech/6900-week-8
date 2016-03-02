@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Module, interaction, and crossfilter</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../global.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="controls clearfix">
+                <div class="control-module drop-down">
+                    <div class="select">
+                        <span>Start Station</span>
+                        <select class="form-control start">
+                            <option value="">All</option>
+                        </select>
+                    </div>
+                    <div class="select">
+                        <span>End Station</span>
+                        <select class="form-control end">
+                            <option value="">All</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="control-module histogram context"></div>
+            </div>
+            <div class="plot"></div>
+        </div>
+
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script src="../lib/crossfilter/crossfilter.js"></script>
+
+        <script src="module/timeChart.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

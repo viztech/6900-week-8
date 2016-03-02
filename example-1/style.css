@@ -1,0 +1,46 @@
+.plot{
+    width:100%;
+	height:300px;
+	float:left;
+    margin: 30px 0 0;
+}
+    .plot .bar{
+        fill:#03afeb;
+    }
+
+    .context .bar{
+        fill:rgb(220,220,220);
+    }
+    .context .highlight{
+        fill:#03afeb;
+    }
+
+
+.brush .extent{
+    fill-opacity:.05;
+}
+
+.controls{
+    height:100px;
+    font-size:1.5em;
+    font-family:Helvetica,sans-serif;
+    font-weight:lighter;
+    width:100%;
+    position:relative;
+}
+.control-module{
+    float:left;
+    height:100%;
+}
+    .controls .drop-down{
+        width:40%;
+    }
+        .controls .drop-down .select{
+            width:40%;
+            float:left;
+            margin:0 5% 0 0;
+        }
+    .controls .context{
+        width:60%;
+    }
+
